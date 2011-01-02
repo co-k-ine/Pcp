@@ -1,0 +1,534 @@
+2010/12/28 10:59:04 [error] [exception.CException] exception 'CException' with message 'Please configure the "password" property of the "gii" module.' in /var/www/yii1.5/framework/gii/components/UserIdentity.php:13
+Stack trace:
+#0 /var/www/yii1.5/framework/gii/models/LoginForm.php(26): UserIdentity->authenticate()
+#1 /var/www/yii1.5/framework/validators/CInlineValidator.php(39): LoginForm->authenticate('password', Array)
+#2 /var/www/yii1.5/framework/validators/CValidator.php(184): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 /var/www/yii1.5/framework/base/CModel.php(150): CValidator->validate(Object(LoginForm), NULL)
+#4 /var/www/yii1.5/framework/gii/controllers/DefaultController.php(43): CModel->validate()
+#5 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): DefaultController->actionLogin()
+#6 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#7 /var/www/yii1.5/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#8 /var/www/yii1.5/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /var/www/yii1.5/framework/web/CWebApplication.php(324): CController->run('login')
+#10 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController('gii/default/log...')
+#11 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#12 /var/www/yii1.5/cms/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yii1.5/cms/index.php?r=gii/default/login
+2010/12/28 10:59:12 [error] [exception.CException] exception 'CException' with message 'Please configure the "password" property of the "gii" module.' in /var/www/yii1.5/framework/gii/components/UserIdentity.php:13
+Stack trace:
+#0 /var/www/yii1.5/framework/gii/models/LoginForm.php(26): UserIdentity->authenticate()
+#1 /var/www/yii1.5/framework/validators/CInlineValidator.php(39): LoginForm->authenticate('password', Array)
+#2 /var/www/yii1.5/framework/validators/CValidator.php(184): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 /var/www/yii1.5/framework/base/CModel.php(150): CValidator->validate(Object(LoginForm), NULL)
+#4 /var/www/yii1.5/framework/gii/controllers/DefaultController.php(43): CModel->validate()
+#5 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): DefaultController->actionLogin()
+#6 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#7 /var/www/yii1.5/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#8 /var/www/yii1.5/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /var/www/yii1.5/framework/web/CWebApplication.php(324): CController->run('login')
+#10 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController('gii/default/log...')
+#11 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#12 /var/www/yii1.5/cms/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yii1.5/cms/index.php?r=gii/default/login
+2010/12/28 10:59:29 [error] [exception.CException] exception 'CException' with message 'Please configure the "password" property of the "gii" module.' in /var/www/yii1.5/framework/gii/components/UserIdentity.php:13
+Stack trace:
+#0 /var/www/yii1.5/framework/gii/models/LoginForm.php(26): UserIdentity->authenticate()
+#1 /var/www/yii1.5/framework/validators/CInlineValidator.php(39): LoginForm->authenticate('password', Array)
+#2 /var/www/yii1.5/framework/validators/CValidator.php(184): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 /var/www/yii1.5/framework/base/CModel.php(150): CValidator->validate(Object(LoginForm), NULL)
+#4 /var/www/yii1.5/framework/gii/controllers/DefaultController.php(43): CModel->validate()
+#5 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): DefaultController->actionLogin()
+#6 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#7 /var/www/yii1.5/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#8 /var/www/yii1.5/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /var/www/yii1.5/framework/web/CWebApplication.php(324): CController->run('login')
+#10 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController('gii/default/log...')
+#11 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#12 /var/www/yii1.5/cms/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yii1.5/cms/index.php?r=gii/default/login
+2010/12/28 10:59:58 [error] [exception.CException] exception 'CException' with message 'Please configure the "password" property of the "gii" module.' in /var/www/yii1.5/framework/gii/components/UserIdentity.php:13
+Stack trace:
+#0 /var/www/yii1.5/framework/gii/models/LoginForm.php(26): UserIdentity->authenticate()
+#1 /var/www/yii1.5/framework/validators/CInlineValidator.php(39): LoginForm->authenticate('password', Array)
+#2 /var/www/yii1.5/framework/validators/CValidator.php(184): CInlineValidator->validateAttribute(Object(LoginForm), 'password')
+#3 /var/www/yii1.5/framework/base/CModel.php(150): CValidator->validate(Object(LoginForm), NULL)
+#4 /var/www/yii1.5/framework/gii/controllers/DefaultController.php(43): CModel->validate()
+#5 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): DefaultController->actionLogin()
+#6 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#7 /var/www/yii1.5/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#8 /var/www/yii1.5/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 /var/www/yii1.5/framework/web/CWebApplication.php(324): CController->run('login')
+#10 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController('gii/default/log...')
+#11 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#12 /var/www/yii1.5/cms/index.php(13): CApplication->run()
+#13 {main} REQUEST_URI=/yii1.5/cms/index.php?r=gii/default/login
+2010/12/28 11:01:31 [error] [php] Undefined offset: 2 (/var/www/yii1.5/framework/gii/GiiModule.php:203)
+Stack trace:
+#0 /var/www/yii1.5/framework/YiiBase.php(200): GiiModule->__construct()
+#1 /var/www/yii1.5/framework/base/CModule.php(266): createComponent()
+#2 /var/www/yii1.5/framework/web/CWebApplication.php(379): CWebApplication->getModule()
+#3 /var/www/yii1.5/framework/web/CWebApplication.php(318): CWebApplication->createController()
+#4 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#5 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#6 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=gii/default/login
+in /var/www/yii1.5/framework/gii/GiiModule.php (203)
+in /var/www/yii1.5/framework/gii/GiiModule.php (128)
+in /var/www/yii1.5/cms/index.php (13)
+2010/12/29 11:08:43 [error] [php] include(Acteurs.php): failed to open stream: No such file or directory (/var/www/yii1.5/framework/YiiBase.php:395)
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/views/films/_form.php(38): spl_autoload_call()
+#1 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#2 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#3 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#4 /var/www/yii1.5/cms/protected/views/films/create.php(18): FilmsController->renderPartial()
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#7 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#8 /var/www/yii1.5/framework/web/CController.php(746): FilmsController->renderPartial()
+#9 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): FilmsController->render()
+#10 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#11 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#12 /var/www/yii1.5/framework/web/CController.php(278): FilmsController->runAction()
+#13 /var/www/yii1.5/framework/web/CController.php(257): FilmsController->runActionWithFilters()
+#14 /var/www/yii1.5/framework/web/CWebApplication.php(324): FilmsController->run()
+#15 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#16 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#17 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+in /var/www/yii1.5/cms/protected/views/films/_form.php (38)
+in /var/www/yii1.5/cms/protected/views/films/create.php (18)
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (32)
+2010/12/29 11:11:46 [error] [php] include(Acteurs.php): failed to open stream: No such file or directory (/var/www/yii1.5/framework/YiiBase.php:395)
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/views/films/_form.php(38): spl_autoload_call()
+#1 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#2 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#3 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#4 /var/www/yii1.5/cms/protected/views/films/create.php(18): FilmsController->renderPartial()
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#7 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#8 /var/www/yii1.5/framework/web/CController.php(746): FilmsController->renderPartial()
+#9 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): FilmsController->render()
+#10 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#11 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#12 /var/www/yii1.5/framework/web/CController.php(278): FilmsController->runAction()
+#13 /var/www/yii1.5/framework/web/CController.php(257): FilmsController->runActionWithFilters()
+#14 /var/www/yii1.5/framework/web/CWebApplication.php(324): FilmsController->run()
+#15 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#16 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#17 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+in /var/www/yii1.5/cms/protected/views/films/_form.php (38)
+in /var/www/yii1.5/cms/protected/views/films/create.php (18)
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (32)
+2010/12/29 11:12:07 [error] [php] include(Acteurs.php): failed to open stream: No such file or directory (/var/www/yii1.5/framework/YiiBase.php:395)
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/views/films/_form.php(38): spl_autoload_call()
+#1 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#2 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#3 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#4 /var/www/yii1.5/cms/protected/views/films/create.php(18): FilmsController->renderPartial()
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#7 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#8 /var/www/yii1.5/framework/web/CController.php(746): FilmsController->renderPartial()
+#9 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): FilmsController->render()
+#10 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#11 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#12 /var/www/yii1.5/framework/web/CController.php(278): FilmsController->runAction()
+#13 /var/www/yii1.5/framework/web/CController.php(257): FilmsController->runActionWithFilters()
+#14 /var/www/yii1.5/framework/web/CWebApplication.php(324): FilmsController->run()
+#15 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#16 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#17 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+in /var/www/yii1.5/cms/protected/views/films/_form.php (38)
+in /var/www/yii1.5/cms/protected/views/films/create.php (18)
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (32)
+2010/12/29 11:12:09 [error] [php] include(Acteurs.php): failed to open stream: No such file or directory (/var/www/yii1.5/framework/YiiBase.php:395)
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/views/films/_form.php(38): spl_autoload_call()
+#1 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#2 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#3 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#4 /var/www/yii1.5/cms/protected/views/films/create.php(18): FilmsController->renderPartial()
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#7 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#8 /var/www/yii1.5/framework/web/CController.php(746): FilmsController->renderPartial()
+#9 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): FilmsController->render()
+#10 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#11 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#12 /var/www/yii1.5/framework/web/CController.php(278): FilmsController->runAction()
+#13 /var/www/yii1.5/framework/web/CController.php(257): FilmsController->runActionWithFilters()
+#14 /var/www/yii1.5/framework/web/CWebApplication.php(324): FilmsController->run()
+#15 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#16 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#17 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+in /var/www/yii1.5/cms/protected/views/films/_form.php (38)
+in /var/www/yii1.5/cms/protected/views/films/create.php (18)
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (32)
+2010/12/29 11:15:56 [error] [php] include(Acteurs.php): failed to open stream: No such file or directory (/var/www/yii1.5/framework/YiiBase.php:395)
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/views/films/_form.php(38): spl_autoload_call()
+#1 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#2 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#3 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#4 /var/www/yii1.5/cms/protected/views/films/create.php(18): FilmsController->renderPartial()
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#7 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#8 /var/www/yii1.5/framework/web/CController.php(746): FilmsController->renderPartial()
+#9 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): FilmsController->render()
+#10 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#11 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#12 /var/www/yii1.5/framework/web/CController.php(278): FilmsController->runAction()
+#13 /var/www/yii1.5/framework/web/CController.php(257): FilmsController->runActionWithFilters()
+#14 /var/www/yii1.5/framework/web/CWebApplication.php(324): FilmsController->run()
+#15 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#16 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#17 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+in /var/www/yii1.5/cms/protected/views/films/_form.php (38)
+in /var/www/yii1.5/cms/protected/views/films/create.php (18)
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (32)
+2010/12/29 11:15:57 [error] [php] include(Acteurs.php): failed to open stream: No such file or directory (/var/www/yii1.5/framework/YiiBase.php:395)
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/views/films/_form.php(38): spl_autoload_call()
+#1 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#2 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#3 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#4 /var/www/yii1.5/cms/protected/views/films/create.php(18): FilmsController->renderPartial()
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#7 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#8 /var/www/yii1.5/framework/web/CController.php(746): FilmsController->renderPartial()
+#9 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): FilmsController->render()
+#10 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#11 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#12 /var/www/yii1.5/framework/web/CController.php(278): FilmsController->runAction()
+#13 /var/www/yii1.5/framework/web/CController.php(257): FilmsController->runActionWithFilters()
+#14 /var/www/yii1.5/framework/web/CWebApplication.php(324): FilmsController->run()
+#15 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#16 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#17 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+in /var/www/yii1.5/cms/protected/views/films/_form.php (38)
+in /var/www/yii1.5/cms/protected/views/films/create.php (18)
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (32)
+2010/12/29 11:16:02 [error] [php] include(Acteurs.php): failed to open stream: No such file or directory (/var/www/yii1.5/framework/YiiBase.php:395)
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/views/films/_form.php(38): spl_autoload_call()
+#1 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#2 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#3 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#4 /var/www/yii1.5/cms/protected/views/films/create.php(18): FilmsController->renderPartial()
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#7 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#8 /var/www/yii1.5/framework/web/CController.php(746): FilmsController->renderPartial()
+#9 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): FilmsController->render()
+#10 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#11 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#12 /var/www/yii1.5/framework/web/CController.php(278): FilmsController->runAction()
+#13 /var/www/yii1.5/framework/web/CController.php(257): FilmsController->runActionWithFilters()
+#14 /var/www/yii1.5/framework/web/CWebApplication.php(324): FilmsController->run()
+#15 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#16 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#17 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+in /var/www/yii1.5/cms/protected/views/films/_form.php (38)
+in /var/www/yii1.5/cms/protected/views/films/create.php (18)
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (32)
+2010/12/29 11:31:53 [error] [php] include(Acteurs.php): failed to open stream: No such file or directory (/var/www/yii1.5/framework/YiiBase.php:395)
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/views/films/_form.php(38): spl_autoload_call()
+#1 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#2 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#3 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#4 /var/www/yii1.5/cms/protected/views/films/create.php(18): FilmsController->renderPartial()
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require()
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): FilmsController->renderInternal()
+#7 /var/www/yii1.5/framework/web/CController.php(833): FilmsController->renderFile()
+#8 /var/www/yii1.5/framework/web/CController.php(746): FilmsController->renderPartial()
+#9 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): FilmsController->render()
+#10 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#11 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#12 /var/www/yii1.5/framework/web/CController.php(278): FilmsController->runAction()
+#13 /var/www/yii1.5/framework/web/CController.php(257): FilmsController->runActionWithFilters()
+#14 /var/www/yii1.5/framework/web/CWebApplication.php(324): FilmsController->run()
+#15 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController()
+#16 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#17 /var/www/yii1.5/cms/index.php(13): CWebApplication->run()
+REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+in /var/www/yii1.5/cms/protected/views/films/_form.php (38)
+in /var/www/yii1.5/cms/protected/views/films/create.php (18)
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (32)
+2010/12/30 19:25:24 [error] [exception.CException] exception 'CException' with message 'Property "Acteurs.findAllAttributes" is not defined.' in /var/www/yii1.5/framework/base/CComponent.php:131
+Stack trace:
+#0 /var/www/yii1.5/framework/db/ar/CActiveRecord.php(110): CComponent->__get('findAllAttribut...')
+#1 /var/www/yii1.5/framework/base/CComponent.php(264): CActiveRecord->__get('findAllAttribut...')
+#2 /var/www/yii1.5/framework/db/ar/CActiveRecord.php(195): CComponent->__call('findAllAttribut...', Array)
+#3 /var/www/yii1.5/cms/protected/views/films/_form.php(38): CActiveRecord->__call('findAllAttribut...', Array)
+#4 /var/www/yii1.5/cms/protected/views/films/_form.php(38): Acteurs->findAllAttributes(NULL, true)
+#5 /var/www/yii1.5/framework/web/CBaseController.php(119): require('/var/www/yii1.5...')
+#6 /var/www/yii1.5/framework/web/CBaseController.php(88): CBaseController->renderInternal('/var/www/yii1.5...', Array, true)
+#7 /var/www/yii1.5/framework/web/CController.php(833): CBaseController->renderFile('/var/www/yii1.5...', Array, true)
+#8 /var/www/yii1.5/cms/protected/views/films/create.php(18): CController->renderPartial('_form', Array)
+#9 /var/www/yii1.5/framework/web/CBaseController.php(119): require('/var/www/yii1.5...')
+#10 /var/www/yii1.5/framework/web/CBaseController.php(88): CBaseController->renderInternal('/var/www/yii1.5...', Array, true)
+#11 /var/www/yii1.5/framework/web/CController.php(833): CBaseController->renderFile('/var/www/yii1.5...', Array, true)
+#12 /var/www/yii1.5/framework/web/CController.php(746): CController->renderPartial('create', Array, true)
+#13 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(32): CController->render('create', Array)
+#14 /var/www/yii1.5/framework/web/actions/CInlineAction.php(57): FilmsController->actionCreate()
+#15 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#16 /var/www/yii1.5/framework/web/CController.php(278): CController->runAction(Object(CInlineAction))
+#17 /var/www/yii1.5/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 /var/www/yii1.5/framework/web/CWebApplication.php(324): CController->run('create')
+#19 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController('films/create')
+#20 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#21 /var/www/yii1.5/cms/index.php(13): CApplication->run()
+#22 {main} REQUEST_URI=/yii1.5/cms/index.php?r=films/create
+2010/12/30 19:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "films".' in /var/www/yii1.5/framework/web/CWebApplication.php:328
+Stack trace:
+#0 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController('films')
+#1 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#2 /var/www/yii1.5/cms/index.php(13): CApplication->run()
+#3 {main} REQUEST_URI=/yii1.5/cms/index.php?r=films
+2011/01/02 13:22:53 [warning] [application] Failed to set unsafe attribute "films".
+in /var/www/yii1.5/cms/protected/controllers/RealisateursController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:24:23 [warning] [application] Failed to set unsafe attribute "films".
+in /var/www/yii1.5/cms/protected/controllers/ActeursController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:24:39 [warning] [application] Failed to set unsafe attribute "films".
+in /var/www/yii1.5/cms/protected/controllers/ActeursController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:24:55 [warning] [application] Failed to set unsafe attribute "films".
+in /var/www/yii1.5/cms/protected/controllers/ActeursController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:27:44 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:27:44 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:27:44 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:27:44 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:28:06 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:28:06 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:28:06 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:28:06 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:29:13 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:29:13 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:29:13 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:29:13 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:29:18 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:29:18 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:29:18 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:29:18 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:43:03 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:43:03 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:43:03 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:43:03 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:43:16 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:43:16 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:43:16 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:43:16 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:45:47 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:45:47 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:45:47 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:45:47 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:47:50 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:47:50 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:47:50 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:47:50 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:48:52 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:48:52 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:48:52 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:48:52 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:56:56 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:56:56 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:56:56 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:56:56 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:56:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The requested page does not exist.' in /var/www/yii1.5/cms/protected/extensions/giix-components/GxController.php:45
+Stack trace:
+#0 /var/www/yii1.5/cms/protected/controllers/FilmsController.php(33): GxController->loadModel('10', 'Films')
+#1 [internal function]: FilmsController->actionView('10')
+#2 /var/www/yii1.5/framework/web/actions/CInlineAction.php(54): ReflectionMethod->invokeArgs(Object(FilmsController), Array)
+#3 /var/www/yii1.5/framework/web/CController.php(300): CInlineAction->run()
+#4 /var/www/yii1.5/framework/web/filters/CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 /var/www/yii1.5/framework/web/filters/CFilter.php(41): CFilterChain->run()
+#6 /var/www/yii1.5/framework/web/CController.php(1084): CFilter->filter(Object(CFilterChain))
+#7 /var/www/yii1.5/framework/web/filters/CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#8 /var/www/yii1.5/framework/web/filters/CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 /var/www/yii1.5/framework/web/CController.php(283): CFilterChain->run()
+#10 /var/www/yii1.5/framework/web/CController.php(257): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 /var/www/yii1.5/framework/web/CWebApplication.php(324): CController->run('view')
+#12 /var/www/yii1.5/framework/web/CWebApplication.php(121): CWebApplication->runController('films/view')
+#13 /var/www/yii1.5/framework/base/CApplication.php(135): CWebApplication->processRequest()
+#14 /var/www/yii1.5/cms/index.php(14): CApplication->run()
+#15 {main} REQUEST_URI=/yii1.5/cms/index.php?r=films/view&id=10
+2011/01/02 13:57:57 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:57:57 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:57:57 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:57:57 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:58:55 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:58:55 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:58:55 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 13:58:55 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (42)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:05:29 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (43)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:05:29 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (43)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:05:29 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (43)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:05:29 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (43)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:08:56 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (43)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:08:56 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (43)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:08:56 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (43)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:08:56 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (43)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:12:10 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:12:10 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:12:10 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:12:10 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:15:10 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:15:10 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:15:10 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:15:10 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:15:28 [warning] [application] Failed to set unsafe attribute "acteurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:15:28 [warning] [application] Failed to set unsafe attribute "filmsTelechargements".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:15:28 [warning] [application] Failed to set unsafe attribute "genres".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
+2011/01/02 14:15:28 [warning] [application] Failed to set unsafe attribute "realisateurs".
+in /var/www/yii1.5/cms/protected/controllers/FilmsController.php (87)
+in /var/www/yii1.5/cms/index.php (14)
